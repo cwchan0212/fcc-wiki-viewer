@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+}
+
+.searchResult {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+table {
+    text-align: justify;
+}
+
+.tableFixHead {
+  overflow-y: auto;
+  height: 580px;
+  width: 100%;
+}
+
+.tableFixHead thead th {
+  position: sticky;
+  top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+tr {
+    border: 0;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+}
+
+td {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.datetime {
+    font-size: 10px;
+}
+
+.snippet {
+    color: rgb(0, 0, 0);
+}
+
+.other {
+  /* display:flex; */
+  float: right;
+  font-size: 10px;
+  font-style: italic;
+}
+
+.banner {
+    display: inline;
+    /* justify-content: center; */
+    justify-content: space-between;
+    margin: auto;
+  }
+ 
+  .logo {
+    /* align-items: center; */
+    width: 50px;
+}
+
+.searchBar {
+    padding: 10px;
+}
+
+.th {
+    width: 200px;
+}
